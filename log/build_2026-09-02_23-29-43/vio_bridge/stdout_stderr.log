@@ -1,0 +1,26 @@
+Consolidate compiler generated dependencies of target vio_bridge_node
+[ 50%] Built target camera_node
+[ 75%] Building CXX object CMakeFiles/vio_bridge_node.dir/src/vio_bridge_node.cpp.o
+[100%] Linking CXX executable vio_bridge_node
+[100%] Built target vio_bridge_node
+-- Install configuration: ""
+-- Installing: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node
+-- Set runtime path of "/home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node" to ""
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch/pulish_topic.launch.py
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/package_run_dependencies/vio_bridge
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/parent_prefix_path/vio_bridge
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.sh
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.dsv
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.bash
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.sh
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.zsh
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.dsv
+-- Installing: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.dsv
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/packages/vio_bridge
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig.cmake
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig-version.cmake
+-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.xml

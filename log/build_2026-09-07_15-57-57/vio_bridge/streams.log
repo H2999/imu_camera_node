@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzq/RM/VIO_ws/src/vio_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hzq/RM/VIO_ws/install/vio_bridge
+[0.025s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.165s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.208s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.215s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.452s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.485s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.491s] -- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+[0.522s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.592s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.592s] -- Configured cppcheck include dirs: 
+[0.592s] -- Configured cppcheck exclude dirs and/or files: 
+[0.593s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.593s] -- Added test 'lint_cmake' to check CMake code style
+[0.593s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.594s] -- Added test 'uncrustify' to check C / C++ code style
+[0.594s] -- Configured uncrustify additional arguments: 
+[0.594s] -- Added test 'xmllint' to check XML markup files
+[0.596s] -- Configuring done
+[0.615s] -- Generating done
+[0.621s] -- Build files have been written to: /home/hzq/RM/VIO_ws/build/vio_bridge
+[0.632s] Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzq/RM/VIO_ws/src/vio_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hzq/RM/VIO_ws/install/vio_bridge
+[0.633s] Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+[0.684s] Consolidate compiler generated dependencies of target vio_bridge_node
+[0.684s] Consolidate compiler generated dependencies of target camera_node
+[0.699s] [ 50%] Building CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o
+[0.699s] [ 50%] Linking CXX executable vio_bridge_node
+[0.968s] [ 75%] Built target vio_bridge_node
+[9.542s] [100%] Linking CXX executable camera_node
+[10.320s] [100%] Built target camera_node
+[10.333s] Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+[10.345s] Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge
+[10.353s] -- Install configuration: ""
+[10.353s] -- Execute custom install script
+[10.354s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node
+[10.366s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node
+[10.377s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch/pulish_topic.launch.py
+[10.388s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/package_run_dependencies/vio_bridge
+[10.398s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/parent_prefix_path/vio_bridge
+[10.409s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.sh
+[10.417s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.dsv
+[10.427s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.sh
+[10.437s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.dsv
+[10.446s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.bash
+[10.457s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.sh
+[10.467s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.zsh
+[10.477s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.dsv
+[10.488s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.dsv
+[10.497s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/packages/vio_bridge
+[10.510s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig.cmake
+[10.520s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig-version.cmake
+[10.530s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.xml
+[10.544s] Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge

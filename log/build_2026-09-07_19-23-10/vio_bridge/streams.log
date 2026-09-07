@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+[0.051s] Consolidate compiler generated dependencies of target vio_bridge_node
+[0.060s] [ 50%] Built target camera_node
+[0.063s] [ 75%] Building CXX object CMakeFiles/vio_bridge_node.dir/src/vio_bridge_node.cpp.o
+[3.302s] [100%] Linking CXX executable vio_bridge_node
+[3.453s] [100%] Built target vio_bridge_node
+[3.463s] Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+[3.472s] Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge
+[3.480s] -- Install configuration: ""
+[3.480s] -- Execute custom install script
+[3.480s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node
+[3.480s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch/pulish_topic.launch.py
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/package_run_dependencies/vio_bridge
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/parent_prefix_path/vio_bridge
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.sh
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.dsv
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.sh
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.dsv
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.bash
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.sh
+[3.481s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.zsh
+[3.482s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.dsv
+[3.482s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.dsv
+[3.488s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/packages/vio_bridge
+[3.488s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig.cmake
+[3.488s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig-version.cmake
+[3.489s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.xml
+[3.491s] Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge

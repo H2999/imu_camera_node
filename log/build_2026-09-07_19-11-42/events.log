@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (vio_bridge) JobQueued: {'identifier': 'vio_bridge', 'dependencies': OrderedDict()}
+[0.000610] (vio_bridge) JobStarted: {'identifier': 'vio_bridge'}
+[0.007285] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'cmake'}
+[0.008202] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'build'}
+[0.008720] (vio_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzq/RM/VIO_ws/build/vio_bridge', '--', '-j16', '-l16'], 'cwd': '/home/hzq/RM/VIO_ws/build/vio_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hzq'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/hzq/Software/CubeMX'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('HOME', '/home/hzq'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1857'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2184'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '539773'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'hzq'), ('JOURNAL_STREAM', '8:17810'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'hzq'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/hzq/.codex/tmp/arg0/codex-arg0zVIZxa:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources:/home/hzq/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/xx:@/tmp/.ICE-unix/2157,unix/xx:/tmp/.ICE-unix/2157'), ('CODEX_SESSION_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('INVOCATION_ID', 'cbab56b299864239b3b2cccb17a43c4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('CODEX_THREAD_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hzq/RM/VIO_ws/build/vio_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/hzq/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.072401] (vio_bridge) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target camera_node\n'}
+[0.078807] (vio_bridge) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/vio_bridge_node.dir/src/vio_bridge_node.cpp.o\n'}
+[0.084902] (vio_bridge) StdoutLine: {'line': b'[ 75%] Built target camera_node\n'}
+[0.099833] (-) TimerEvent: {}
+[0.200030] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.400699] (-) TimerEvent: {}
+[0.501201] (-) TimerEvent: {}
+[0.601433] (-) TimerEvent: {}
+[0.701660] (-) TimerEvent: {}
+[0.801890] (-) TimerEvent: {}
+[0.902116] (-) TimerEvent: {}
+[1.002307] (-) TimerEvent: {}
+[1.102503] (-) TimerEvent: {}
+[1.202731] (-) TimerEvent: {}
+[1.302944] (-) TimerEvent: {}
+[1.403148] (-) TimerEvent: {}
+[1.503375] (-) TimerEvent: {}
+[1.603583] (-) TimerEvent: {}
+[1.703789] (-) TimerEvent: {}
+[1.803985] (-) TimerEvent: {}
+[1.904175] (-) TimerEvent: {}
+[2.004372] (-) TimerEvent: {}
+[2.104563] (-) TimerEvent: {}
+[2.204748] (-) TimerEvent: {}
+[2.267004] (vio_bridge) StderrLine: {'line': b'/home/hzq/RM/VIO_ws/src/vio_bridge/src/vio_bridge_node.cpp: In member function \xe2\x80\x98void VIOBridgeNode::read_callback()\xe2\x80\x99:\n'}
+[2.267249] (vio_bridge) StderrLine: {'line': b'/home/hzq/RM/VIO_ws/src/vio_bridge/src/vio_bridge_node.cpp:225:58: warning: comparison of integer expressions of different signedness: \xe2\x80\x98const uint64_t\xe2\x80\x99 {aka \xe2\x80\x98const long unsigned int\xe2\x80\x99} and \xe2\x80\x98int64_t\xe2\x80\x99 {aka \xe2\x80\x98long int\xe2\x80\x99} [-Wsign-compare]\n'}
+[2.267359] (vio_bridge) StderrLine: {'line': b'  225 |             if (last_imu_timestamp_us_ != 0 && imu_dt_us > max_imu_gap_us_) {\n'}
+[2.267426] (vio_bridge) StderrLine: {'line': b'      |                                                ~~~~~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[2.304852] (-) TimerEvent: {}
+[2.405036] (-) TimerEvent: {}
+[2.505294] (-) TimerEvent: {}
+[2.605506] (-) TimerEvent: {}
+[2.705717] (-) TimerEvent: {}
+[2.805926] (-) TimerEvent: {}
+[2.906117] (-) TimerEvent: {}
+[3.006302] (-) TimerEvent: {}
+[3.106505] (-) TimerEvent: {}
+[3.206685] (-) TimerEvent: {}
+[3.306867] (-) TimerEvent: {}
+[3.407081] (-) TimerEvent: {}
+[3.507308] (-) TimerEvent: {}
+[3.607542] (-) TimerEvent: {}
+[3.707745] (-) TimerEvent: {}
+[3.807956] (-) TimerEvent: {}
+[3.908162] (-) TimerEvent: {}
+[4.008304] (-) TimerEvent: {}
+[4.108495] (-) TimerEvent: {}
+[4.137438] (vio_bridge) StdoutLine: {'line': b'[100%] Linking CXX executable vio_bridge_node\n'}
+[4.208600] (-) TimerEvent: {}
+[4.308797] (-) TimerEvent: {}
+[4.328538] (vio_bridge) StdoutLine: {'line': b'[100%] Built target vio_bridge_node\n'}
+[4.341987] (vio_bridge) CommandEnded: {'returncode': 0}
+[4.342836] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'install'}
+[4.353093] (vio_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hzq/RM/VIO_ws/build/vio_bridge'], 'cwd': '/home/hzq/RM/VIO_ws/build/vio_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hzq'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/hzq/Software/CubeMX'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('HOME', '/home/hzq'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1857'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2184'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '539773'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'hzq'), ('JOURNAL_STREAM', '8:17810'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'hzq'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/hzq/.codex/tmp/arg0/codex-arg0zVIZxa:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources:/home/hzq/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/xx:@/tmp/.ICE-unix/2157,unix/xx:/tmp/.ICE-unix/2157'), ('CODEX_SESSION_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('INVOCATION_ID', 'cbab56b299864239b3b2cccb17a43c4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('CODEX_THREAD_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hzq/RM/VIO_ws/build/vio_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/hzq/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[4.361317] (vio_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.362208] (vio_bridge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.362794] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node\n'}
+[4.362927] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node\n'}
+[4.363672] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch/pulish_topic.launch.py\n'}
+[4.364894] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/package_run_dependencies/vio_bridge\n'}
+[4.365364] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/parent_prefix_path/vio_bridge\n'}
+[4.365669] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.sh\n'}
+[4.366061] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.dsv\n'}
+[4.366266] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.sh\n'}
+[4.366508] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.dsv\n'}
+[4.366879] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.bash\n'}
+[4.367066] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.sh\n'}
+[4.367413] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.zsh\n'}
+[4.367619] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.dsv\n'}
+[4.367700] (vio_bridge) StdoutLine: {'line': b'-- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.dsv\n'}
+[4.377157] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/packages/vio_bridge\n'}
+[4.377422] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig.cmake\n'}
+[4.377613] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig-version.cmake\n'}
+[4.377763] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.xml\n'}
+[4.408913] (-) TimerEvent: {}
+[4.509102] (-) TimerEvent: {}
+[4.609319] (-) TimerEvent: {}
+[4.709503] (-) TimerEvent: {}
+[4.809689] (-) TimerEvent: {}
+[4.909875] (-) TimerEvent: {}
+[5.010069] (-) TimerEvent: {}
+[5.110271] (-) TimerEvent: {}
+[5.210461] (-) TimerEvent: {}
+[5.310647] (-) TimerEvent: {}
+[5.410838] (-) TimerEvent: {}
+[5.511031] (-) TimerEvent: {}
+[5.611232] (-) TimerEvent: {}
+[5.711421] (-) TimerEvent: {}
+[5.811603] (-) TimerEvent: {}
+[5.911791] (-) TimerEvent: {}
+[6.011990] (-) TimerEvent: {}
+[6.112182] (-) TimerEvent: {}
+[6.212377] (-) TimerEvent: {}
+[6.312568] (-) TimerEvent: {}
+[6.412754] (-) TimerEvent: {}
+[6.512944] (-) TimerEvent: {}
+[6.613134] (-) TimerEvent: {}
+[6.713300] (-) TimerEvent: {}
+[6.813485] (-) TimerEvent: {}
+[6.913678] (-) TimerEvent: {}
+[7.013863] (-) TimerEvent: {}
+[7.114045] (-) TimerEvent: {}
+[7.214233] (-) TimerEvent: {}
+[7.314438] (-) TimerEvent: {}
+[7.414632] (-) TimerEvent: {}
+[7.514832] (-) TimerEvent: {}
+[7.615021] (-) TimerEvent: {}
+[7.715341] (-) TimerEvent: {}
+[7.815577] (-) TimerEvent: {}
+[7.915798] (-) TimerEvent: {}
+[8.015998] (-) TimerEvent: {}
+[8.116221] (-) TimerEvent: {}
+[8.216448] (-) TimerEvent: {}
+[8.316785] (-) TimerEvent: {}
+[8.417089] (-) TimerEvent: {}
+[8.517308] (-) TimerEvent: {}
+[8.617527] (-) TimerEvent: {}
+[8.717749] (-) TimerEvent: {}
+[8.817940] (-) TimerEvent: {}
+[8.918137] (-) TimerEvent: {}
+[9.018359] (-) TimerEvent: {}
+[9.118548] (-) TimerEvent: {}
+[9.218723] (-) TimerEvent: {}
+[9.318911] (-) TimerEvent: {}
+[9.419099] (-) TimerEvent: {}
+[9.519295] (-) TimerEvent: {}
+[9.619506] (-) TimerEvent: {}
+[9.719704] (-) TimerEvent: {}
+[9.819920] (-) TimerEvent: {}
+[9.920103] (-) TimerEvent: {}
+[10.020325] (-) TimerEvent: {}
+[10.120554] (-) TimerEvent: {}
+[10.220760] (-) TimerEvent: {}
+[10.320971] (-) TimerEvent: {}
+[10.421165] (-) TimerEvent: {}
+[10.521389] (-) TimerEvent: {}
+[10.621604] (-) TimerEvent: {}
+[10.721789] (-) TimerEvent: {}
+[10.821955] (-) TimerEvent: {}
+[10.922126] (-) TimerEvent: {}
+[11.022305] (-) TimerEvent: {}
+[11.122488] (-) TimerEvent: {}
+[11.222669] (-) TimerEvent: {}
+[11.322920] (-) TimerEvent: {}
+[11.423143] (-) TimerEvent: {}
+[11.523322] (-) TimerEvent: {}
+[11.623535] (-) TimerEvent: {}
+[11.723768] (-) TimerEvent: {}
+[11.823951] (-) TimerEvent: {}
+[11.924114] (-) TimerEvent: {}
+[12.024311] (-) TimerEvent: {}
+[12.124502] (-) TimerEvent: {}
+[12.224711] (-) TimerEvent: {}
+[12.324899] (-) TimerEvent: {}
+[12.425064] (-) TimerEvent: {}
+[12.525248] (-) TimerEvent: {}
+[12.625444] (-) TimerEvent: {}
+[12.725613] (-) TimerEvent: {}
+[12.825802] (-) TimerEvent: {}
+[12.925994] (-) TimerEvent: {}
+[13.026180] (-) TimerEvent: {}
+[13.126384] (-) TimerEvent: {}
+[13.226580] (-) TimerEvent: {}
+[13.326761] (-) TimerEvent: {}
+[13.426933] (-) TimerEvent: {}
+[13.527106] (-) TimerEvent: {}
+[13.627305] (-) TimerEvent: {}
+[13.727495] (-) TimerEvent: {}
+[13.827702] (-) TimerEvent: {}
+[13.927904] (-) TimerEvent: {}
+[14.028091] (-) TimerEvent: {}
+[14.128319] (-) TimerEvent: {}
+[14.228511] (-) TimerEvent: {}
+[14.328707] (-) TimerEvent: {}
+[14.428892] (-) TimerEvent: {}
+[14.529071] (-) TimerEvent: {}
+[14.629275] (-) TimerEvent: {}
+[14.729465] (-) TimerEvent: {}
+[14.829658] (-) TimerEvent: {}
+[14.929836] (-) TimerEvent: {}
+[15.030014] (-) TimerEvent: {}
+[15.130197] (-) TimerEvent: {}
+[15.230399] (-) TimerEvent: {}
+[15.330590] (-) TimerEvent: {}
+[15.430815] (-) TimerEvent: {}
+[15.531020] (-) TimerEvent: {}
+[15.631225] (-) TimerEvent: {}
+[15.731447] (-) TimerEvent: {}
+[15.831654] (-) TimerEvent: {}
+[15.931865] (-) TimerEvent: {}
+[16.032075] (-) TimerEvent: {}
+[16.132315] (-) TimerEvent: {}
+[16.232529] (-) TimerEvent: {}
+[16.332747] (-) TimerEvent: {}
+[16.432956] (-) TimerEvent: {}
+[16.533152] (-) TimerEvent: {}
+[16.633391] (-) TimerEvent: {}
+[16.733619] (-) TimerEvent: {}
+[16.833841] (-) TimerEvent: {}
+[16.934054] (-) TimerEvent: {}
+[17.034268] (-) TimerEvent: {}
+[17.134480] (-) TimerEvent: {}
+[17.234708] (-) TimerEvent: {}
+[17.334907] (-) TimerEvent: {}
+[17.435109] (-) TimerEvent: {}
+[17.535323] (-) TimerEvent: {}
+[17.635548] (-) TimerEvent: {}
+[17.735767] (-) TimerEvent: {}
+[17.835961] (-) TimerEvent: {}
+[17.936164] (-) TimerEvent: {}
+[18.036398] (-) TimerEvent: {}
+[18.136584] (-) TimerEvent: {}
+[18.236803] (-) TimerEvent: {}
+[18.337043] (-) TimerEvent: {}
+[18.437268] (-) TimerEvent: {}
+[18.537479] (-) TimerEvent: {}
+[18.637678] (-) TimerEvent: {}
+[18.737870] (-) TimerEvent: {}
+[18.838079] (-) TimerEvent: {}
+[18.938293] (-) TimerEvent: {}
+[19.038498] (-) TimerEvent: {}
+[19.138704] (-) TimerEvent: {}
+[19.238917] (-) TimerEvent: {}
+[19.339122] (-) TimerEvent: {}
+[19.439313] (-) TimerEvent: {}
+[19.539524] (-) TimerEvent: {}
+[19.639726] (-) TimerEvent: {}
+[19.739926] (-) TimerEvent: {}
+[19.840127] (-) TimerEvent: {}
+[19.940304] (-) TimerEvent: {}
+[20.040515] (-) TimerEvent: {}
+[20.140723] (-) TimerEvent: {}
+[20.240928] (-) TimerEvent: {}
+[20.341134] (-) TimerEvent: {}
+[20.441315] (-) TimerEvent: {}
+[20.541531] (-) TimerEvent: {}
+[20.641724] (-) TimerEvent: {}
+[20.741902] (-) TimerEvent: {}
+[20.842087] (-) TimerEvent: {}
+[20.942302] (-) TimerEvent: {}
+[21.042508] (-) TimerEvent: {}
+[21.142731] (-) TimerEvent: {}
+[21.242939] (-) TimerEvent: {}
+[21.343108] (-) TimerEvent: {}
+[21.443293] (-) TimerEvent: {}
+[21.543480] (-) TimerEvent: {}
+[21.643697] (-) TimerEvent: {}
+[21.743974] (-) TimerEvent: {}
+[21.844224] (-) TimerEvent: {}
+[21.944444] (-) TimerEvent: {}
+[22.044740] (-) TimerEvent: {}
+[22.144941] (-) TimerEvent: {}
+[22.245141] (-) TimerEvent: {}
+[22.345308] (-) TimerEvent: {}
+[22.445516] (-) TimerEvent: {}
+[22.545715] (-) TimerEvent: {}
+[22.645887] (-) TimerEvent: {}
+[22.746043] (-) TimerEvent: {}
+[22.846188] (-) TimerEvent: {}
+[22.946336] (-) TimerEvent: {}
+[23.046485] (-) TimerEvent: {}
+[23.146658] (-) TimerEvent: {}
+[23.246872] (-) TimerEvent: {}
+[23.347087] (-) TimerEvent: {}
+[23.447323] (-) TimerEvent: {}
+[23.547568] (-) TimerEvent: {}
+[23.647818] (-) TimerEvent: {}
+[23.748057] (-) TimerEvent: {}
+[23.848296] (-) TimerEvent: {}
+[23.948487] (-) TimerEvent: {}
+[24.048676] (-) TimerEvent: {}
+[24.148868] (-) TimerEvent: {}
+[24.249054] (-) TimerEvent: {}
+[24.349261] (-) TimerEvent: {}
+[24.449491] (-) TimerEvent: {}
+[24.549720] (-) TimerEvent: {}
+[24.649952] (-) TimerEvent: {}
+[24.750164] (-) TimerEvent: {}
+[24.850423] (-) TimerEvent: {}
+[24.950650] (-) TimerEvent: {}
+[25.050880] (-) TimerEvent: {}
+[25.151127] (-) TimerEvent: {}
+[25.251393] (-) TimerEvent: {}
+[25.351644] (-) TimerEvent: {}
+[25.451857] (-) TimerEvent: {}
+[25.552048] (-) TimerEvent: {}
+[25.652233] (-) TimerEvent: {}
+[25.752431] (-) TimerEvent: {}
+[25.852617] (-) TimerEvent: {}
+[25.952813] (-) TimerEvent: {}
+[26.053022] (-) TimerEvent: {}
+[26.153222] (-) TimerEvent: {}
+[26.253438] (-) TimerEvent: {}
+[26.353616] (-) TimerEvent: {}
+[26.453886] (-) TimerEvent: {}
+[26.554140] (-) TimerEvent: {}
+[26.654375] (-) TimerEvent: {}
+[26.754566] (-) TimerEvent: {}
+[26.854761] (-) TimerEvent: {}
+[26.954955] (-) TimerEvent: {}
+[27.055147] (-) TimerEvent: {}
+[27.155310] (-) TimerEvent: {}
+[27.255509] (-) TimerEvent: {}
+[27.355702] (-) TimerEvent: {}
+[27.455899] (-) TimerEvent: {}
+[27.556099] (-) TimerEvent: {}
+[27.656307] (-) TimerEvent: {}
+[27.756506] (-) TimerEvent: {}
+[27.856704] (-) TimerEvent: {}
+[27.956912] (-) TimerEvent: {}
+[28.057127] (-) TimerEvent: {}
+[28.157300] (-) TimerEvent: {}
+[28.257478] (-) TimerEvent: {}
+[28.357650] (-) TimerEvent: {}
+[28.457831] (-) TimerEvent: {}
+[28.558034] (-) TimerEvent: {}
+[28.658257] (-) TimerEvent: {}
+[28.758457] (-) TimerEvent: {}
+[28.858650] (-) TimerEvent: {}
+[28.958860] (-) TimerEvent: {}
+[29.059041] (-) TimerEvent: {}
+[29.159234] (-) TimerEvent: {}
+[29.259433] (-) TimerEvent: {}
+[29.359638] (-) TimerEvent: {}
+[29.459856] (-) TimerEvent: {}
+[29.560067] (-) TimerEvent: {}
+[29.660285] (-) TimerEvent: {}
+[29.760463] (-) TimerEvent: {}
+[29.860660] (-) TimerEvent: {}
+[29.960873] (-) TimerEvent: {}
+[30.027774] (vio_bridge) CommandEnded: {'returncode': 0}
+[30.048628] (vio_bridge) JobEnded: {'identifier': 'vio_bridge', 'rc': 0}
+[30.049273] (-) EventReactorShutdown: {}

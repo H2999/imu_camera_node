@@ -1,0 +1,6 @@
+Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzq/RM/VIO_ws/src/vio_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hzq/RM/VIO_ws/install/vio_bridge
+Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzq/RM/VIO_ws/src/vio_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hzq/RM/VIO_ws/install/vio_bridge
+Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge
+Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge

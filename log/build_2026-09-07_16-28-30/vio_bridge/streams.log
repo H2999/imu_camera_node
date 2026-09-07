@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+[0.067s] Consolidate compiler generated dependencies of target camera_node
+[0.075s] [ 50%] Built target vio_bridge_node
+[0.080s] [ 75%] Building CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o
+[7.413s] [100%] Linking CXX executable camera_node
+[8.074s] [100%] Built target camera_node
+[8.085s] Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzq/RM/VIO_ws/build/vio_bridge -- -j16 -l16
+[8.097s] Invoking command in '/home/hzq/RM/VIO_ws/build/vio_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge
+[8.105s] -- Install configuration: ""
+[8.106s] -- Execute custom install script
+[8.107s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node
+[8.107s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node
+[8.107s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch/pulish_topic.launch.py
+[8.108s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/package_run_dependencies/vio_bridge
+[8.108s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/parent_prefix_path/vio_bridge
+[8.108s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.sh
+[8.109s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.dsv
+[8.109s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.sh
+[8.109s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.dsv
+[8.109s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.bash
+[8.109s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.sh
+[8.109s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.zsh
+[8.109s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.dsv
+[8.109s] -- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.dsv
+[8.119s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/packages/vio_bridge
+[8.119s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig.cmake
+[8.119s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig-version.cmake
+[8.119s] -- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.xml
+[8.121s] Invoked command in '/home/hzq/RM/VIO_ws/build/vio_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzq/RM/VIO_ws/build/vio_bridge

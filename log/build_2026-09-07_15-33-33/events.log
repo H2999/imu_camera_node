@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (vio_bridge) JobQueued: {'identifier': 'vio_bridge', 'dependencies': OrderedDict()}
+[0.000451] (vio_bridge) JobStarted: {'identifier': 'vio_bridge'}
+[0.007400] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'cmake'}
+[0.008054] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'build'}
+[0.008625] (vio_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzq/RM/VIO_ws/build/vio_bridge', '--', '-j16', '-l16'], 'cwd': '/home/hzq/RM/VIO_ws/build/vio_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hzq'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/hzq/Software/CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzq'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.125.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1857'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2184'), ('BUNDLED_DEBUGPY_PATH', '/home/hzq/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '523178'), ('COLCON_PREFIX_PATH', '/home/hzq/RM/VIO_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hzq'), ('JOURNAL_STREAM', '8:17810'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hzq/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzq/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/:/home/hzq/.local/bin'), ('SESSION_MANAGER', 'local/xx:@/tmp/.ICE-unix/2157,unix/xx:/tmp/.ICE-unix/2157'), ('INVOCATION_ID', 'cbab56b299864239b3b2cccb17a43c4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzq/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1b704ef115ac8f0f.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzq/.config/Code/User/workspaceStorage/d0eeca02b7b8533df6ab5b373961bcbb/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aef73e9c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hzq/RM/VIO_ws/install/vio_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hzq/RM/VIO_ws/build/vio_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '3632199419e1c6c47bcaa43a423f4153'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/hzq/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hzq/RM/VIO_ws/install/vio_bridge:/opt/ros/humble')]), 'shell': False}
+[0.049784] (vio_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_node\x1b[0m\n'}
+[0.061717] (vio_bridge) StdoutLine: {'line': b'[ 50%] Built target vio_bridge_node\n'}
+[0.067957] (vio_bridge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o\x1b[0m\n'}
+[0.099780] (-) TimerEvent: {}
+[0.200099] (-) TimerEvent: {}
+[0.300430] (-) TimerEvent: {}
+[0.400755] (-) TimerEvent: {}
+[0.501098] (-) TimerEvent: {}
+[0.601446] (-) TimerEvent: {}
+[0.701808] (-) TimerEvent: {}
+[0.802161] (-) TimerEvent: {}
+[0.902484] (-) TimerEvent: {}
+[1.002846] (-) TimerEvent: {}
+[1.103170] (-) TimerEvent: {}
+[1.203482] (-) TimerEvent: {}
+[1.303803] (-) TimerEvent: {}
+[1.404139] (-) TimerEvent: {}
+[1.504445] (-) TimerEvent: {}
+[1.604702] (-) TimerEvent: {}
+[1.705042] (-) TimerEvent: {}
+[1.805353] (-) TimerEvent: {}
+[1.905786] (-) TimerEvent: {}
+[2.006127] (-) TimerEvent: {}
+[2.106405] (-) TimerEvent: {}
+[2.206726] (-) TimerEvent: {}
+[2.307063] (-) TimerEvent: {}
+[2.407422] (-) TimerEvent: {}
+[2.507744] (-) TimerEvent: {}
+[2.608088] (-) TimerEvent: {}
+[2.708422] (-) TimerEvent: {}
+[2.808727] (-) TimerEvent: {}
+[2.908961] (-) TimerEvent: {}
+[3.009223] (-) TimerEvent: {}
+[3.109511] (-) TimerEvent: {}
+[3.209790] (-) TimerEvent: {}
+[3.310084] (-) TimerEvent: {}
+[3.410376] (-) TimerEvent: {}
+[3.510679] (-) TimerEvent: {}
+[3.610977] (-) TimerEvent: {}
+[3.711295] (-) TimerEvent: {}
+[3.811662] (-) TimerEvent: {}
+[3.912114] (-) TimerEvent: {}
+[4.012552] (-) TimerEvent: {}
+[4.112957] (-) TimerEvent: {}
+[4.179204] (vio_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_node\x1b[0m\n'}
+[4.213064] (-) TimerEvent: {}
+[4.313358] (-) TimerEvent: {}
+[4.413667] (-) TimerEvent: {}
+[4.513974] (-) TimerEvent: {}
+[4.552387] (vio_bridge) StdoutLine: {'line': b'[100%] Built target camera_node\n'}
+[4.564082] (vio_bridge) CommandEnded: {'returncode': 0}
+[4.564578] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'install'}
+[4.572453] (vio_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hzq/RM/VIO_ws/build/vio_bridge'], 'cwd': '/home/hzq/RM/VIO_ws/build/vio_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hzq'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/hzq/Software/CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzq'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.125.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1857'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2184'), ('BUNDLED_DEBUGPY_PATH', '/home/hzq/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '523178'), ('COLCON_PREFIX_PATH', '/home/hzq/RM/VIO_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hzq'), ('JOURNAL_STREAM', '8:17810'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hzq/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzq/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/:/home/hzq/.local/bin'), ('SESSION_MANAGER', 'local/xx:@/tmp/.ICE-unix/2157,unix/xx:/tmp/.ICE-unix/2157'), ('INVOCATION_ID', 'cbab56b299864239b3b2cccb17a43c4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzq/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1b704ef115ac8f0f.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzq/.config/Code/User/workspaceStorage/d0eeca02b7b8533df6ab5b373961bcbb/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aef73e9c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hzq/RM/VIO_ws/install/vio_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hzq/RM/VIO_ws/build/vio_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '3632199419e1c6c47bcaa43a423f4153'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/hzq/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hzq/RM/VIO_ws/install/vio_bridge:/opt/ros/humble')]), 'shell': False}
+[4.580453] (vio_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.580661] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node\n'}
+[4.580823] (vio_bridge) StdoutLine: {'line': b'-- Installing: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node\n'}
+[4.582417] (vio_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node" to ""\n'}
+[4.582550] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch\n'}
+[4.582595] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch/pulish_topic.launch.py\n'}
+[4.582629] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/package_run_dependencies/vio_bridge\n'}
+[4.582681] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/parent_prefix_path/vio_bridge\n'}
+[4.582762] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.sh\n'}
+[4.582810] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.dsv\n'}
+[4.582842] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.sh\n'}
+[4.582886] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.dsv\n'}
+[4.582922] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.bash\n'}
+[4.582953] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.sh\n'}
+[4.582980] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.zsh\n'}
+[4.583006] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.dsv\n'}
+[4.583033] (vio_bridge) StdoutLine: {'line': b'-- Installing: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.dsv\n'}
+[4.583074] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/packages/vio_bridge\n'}
+[4.583120] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig.cmake\n'}
+[4.583152] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig-version.cmake\n'}
+[4.583194] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.xml\n'}
+[4.584822] (vio_bridge) CommandEnded: {'returncode': 0}
+[4.594758] (vio_bridge) JobEnded: {'identifier': 'vio_bridge', 'rc': 0}
+[4.595301] (-) EventReactorShutdown: {}

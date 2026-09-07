@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hzq/RM/VIO_ws/build/vio_bridge/vio_bridge_node" "/home/hzq/RM/VIO_ws/build/vio_bridge/camera_node" "TARGETS" "vio_bridge_node" "camera_node" "DESTINATION" "lib/vio_bridge")

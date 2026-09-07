@@ -1,0 +1,1 @@
+/home/hzq/RM/VIO_ws/build/vio_bridge/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,4 @@
+/home/hzq/RM/VIO_ws/src/vio_bridge/src/vio_bridge_node.cpp: In member function ‘void VIOBridgeNode::read_callback()’:
+/home/hzq/RM/VIO_ws/src/vio_bridge/src/vio_bridge_node.cpp:225:58: warning: comparison of integer expressions of different signedness: ‘const uint64_t’ {aka ‘const long unsigned int’} and ‘int64_t’ {aka ‘long int’} [-Wsign-compare]
+  225 |             if (last_imu_timestamp_us_ != 0 && imu_dt_us > max_imu_gap_us_) {
+      |                                                ~~~~~~~~~~^~~~~~~~~~~~~~~~~

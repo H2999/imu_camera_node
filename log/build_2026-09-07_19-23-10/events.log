@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000477] (vio_bridge) JobQueued: {'identifier': 'vio_bridge', 'dependencies': OrderedDict()}
+[0.000652] (vio_bridge) JobStarted: {'identifier': 'vio_bridge'}
+[0.004803] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'cmake'}
+[0.005213] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'build'}
+[0.005852] (vio_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzq/RM/VIO_ws/build/vio_bridge', '--', '-j16', '-l16'], 'cwd': '/home/hzq/RM/VIO_ws/build/vio_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hzq'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/hzq/Software/CubeMX'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('HOME', '/home/hzq'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1857'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2184'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '539773'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'hzq'), ('JOURNAL_STREAM', '8:17810'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'hzq'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/hzq/.codex/tmp/arg0/codex-arg0zVIZxa:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources:/home/hzq/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/xx:@/tmp/.ICE-unix/2157,unix/xx:/tmp/.ICE-unix/2157'), ('CODEX_SESSION_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('INVOCATION_ID', 'cbab56b299864239b3b2cccb17a43c4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('CODEX_THREAD_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hzq/RM/VIO_ws/build/vio_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/hzq/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.051297] (vio_bridge) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target vio_bridge_node\n'}
+[0.060594] (vio_bridge) StdoutLine: {'line': b'[ 50%] Built target camera_node\n'}
+[0.063350] (vio_bridge) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/vio_bridge_node.dir/src/vio_bridge_node.cpp.o\n'}
+[0.099810] (-) TimerEvent: {}
+[0.200011] (-) TimerEvent: {}
+[0.300211] (-) TimerEvent: {}
+[0.400414] (-) TimerEvent: {}
+[0.500597] (-) TimerEvent: {}
+[0.600769] (-) TimerEvent: {}
+[0.700971] (-) TimerEvent: {}
+[0.801202] (-) TimerEvent: {}
+[0.901422] (-) TimerEvent: {}
+[1.001647] (-) TimerEvent: {}
+[1.101870] (-) TimerEvent: {}
+[1.202060] (-) TimerEvent: {}
+[1.302271] (-) TimerEvent: {}
+[1.402473] (-) TimerEvent: {}
+[1.502676] (-) TimerEvent: {}
+[1.602865] (-) TimerEvent: {}
+[1.703068] (-) TimerEvent: {}
+[1.803286] (-) TimerEvent: {}
+[1.903514] (-) TimerEvent: {}
+[2.003718] (-) TimerEvent: {}
+[2.104004] (-) TimerEvent: {}
+[2.204299] (-) TimerEvent: {}
+[2.304499] (-) TimerEvent: {}
+[2.404718] (-) TimerEvent: {}
+[2.504945] (-) TimerEvent: {}
+[2.605125] (-) TimerEvent: {}
+[2.705299] (-) TimerEvent: {}
+[2.805499] (-) TimerEvent: {}
+[2.905705] (-) TimerEvent: {}
+[3.005920] (-) TimerEvent: {}
+[3.106127] (-) TimerEvent: {}
+[3.206368] (-) TimerEvent: {}
+[3.302550] (vio_bridge) StdoutLine: {'line': b'[100%] Linking CXX executable vio_bridge_node\n'}
+[3.306452] (-) TimerEvent: {}
+[3.406642] (-) TimerEvent: {}
+[3.453633] (vio_bridge) StdoutLine: {'line': b'[100%] Built target vio_bridge_node\n'}
+[3.463876] (vio_bridge) CommandEnded: {'returncode': 0}
+[3.464322] (vio_bridge) JobProgress: {'identifier': 'vio_bridge', 'progress': 'install'}
+[3.472554] (vio_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hzq/RM/VIO_ws/build/vio_bridge'], 'cwd': '/home/hzq/RM/VIO_ws/build/vio_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hzq'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/hzq/Software/CubeMX'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('HOME', '/home/hzq'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1857'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2184'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '539773'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'hzq'), ('JOURNAL_STREAM', '8:17810'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'hzq'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/hzq/.codex/tmp/arg0/codex-arg0zVIZxa:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.local/share/JetBrains/Toolbox/scripts:/home/hzq/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources:/home/hzq/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/xx:@/tmp/.ICE-unix/2157,unix/xx:/tmp/.ICE-unix/2157'), ('CODEX_SESSION_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('INVOCATION_ID', 'cbab56b299864239b3b2cccb17a43c4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('CODEX_THREAD_ID', '01a07a70-f2fa-7332-a2c4-2f12edd3e0db'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hzq/RM/VIO_ws/build/vio_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/hzq/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[3.480652] (vio_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.480875] (vio_bridge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.481044] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/vio_bridge_node\n'}
+[3.481139] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/lib/vio_bridge/camera_node\n'}
+[3.481323] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/launch/pulish_topic.launch.py\n'}
+[3.481450] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/package_run_dependencies/vio_bridge\n'}
+[3.481550] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/parent_prefix_path/vio_bridge\n'}
+[3.481642] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.sh\n'}
+[3.481727] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/ament_prefix_path.dsv\n'}
+[3.481814] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.sh\n'}
+[3.481897] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/environment/path.dsv\n'}
+[3.481979] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.bash\n'}
+[3.482064] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.sh\n'}
+[3.482140] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.zsh\n'}
+[3.482220] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/local_setup.dsv\n'}
+[3.482296] (vio_bridge) StdoutLine: {'line': b'-- Symlinking: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.dsv\n'}
+[3.488667] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/ament_index/resource_index/packages/vio_bridge\n'}
+[3.488816] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig.cmake\n'}
+[3.488960] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/cmake/vio_bridgeConfig-version.cmake\n'}
+[3.489147] (vio_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hzq/RM/VIO_ws/install/vio_bridge/share/vio_bridge/package.xml\n'}
+[3.490953] (vio_bridge) CommandEnded: {'returncode': 0}
+[3.501759] (vio_bridge) JobEnded: {'identifier': 'vio_bridge', 'rc': 0}
+[3.502082] (-) EventReactorShutdown: {}
